@@ -15,11 +15,11 @@ F:/My stuff/Work/GDC stuff/gdc 2021 early yr game jam/GDCGameJam2021/GDC 2021 Ea
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-58000
+58320
 Successfully changed project path to: F:/My stuff/Work/GDC stuff/gdc 2021 early yr game jam/GDCGameJam2021/GDC 2021 Early yr game jam
 F:/My stuff/Work/GDC stuff/gdc 2021 early yr game jam/GDCGameJam2021/GDC 2021 Early yr game jam
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 21.18 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 21.78 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.2f1 (068178b99f32)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Resources/UnitySubsystems
@@ -35,113 +35,97 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56308
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56092
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001859 seconds.
+Registered in 0.001855 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 21.03 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 20.65 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.877 seconds
+- Completed reload, in  1.813 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000524 seconds.
+Registered in 0.000499 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.854 seconds
+- Completed reload, in  0.737 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1099 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 56.9 MB.
-System memory in use after: 57.0 MB.
+System memory in use after: 56.9 MB.
 
 Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1540.
-Total: 2.139600 ms (FindLiveObjects: 0.212400 ms CreateObjectMapping: 0.067200 ms MarkObjects: 1.720400 ms  DeleteObjects: 0.138100 ms)
+Total: 1.692200 ms (FindLiveObjects: 0.123800 ms CreateObjectMapping: 0.035100 ms MarkObjects: 1.455500 ms  DeleteObjects: 0.076600 ms)
 
 ========================================================================
 Received Import Request.
-  path: Packages/com.unity.ide.visualstudio/package.json
-  artifactKey: Guid(656f74f6edaa396458412b9e3903d8cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.ide.visualstudio/package.json using Guid(656f74f6edaa396458412b9e3903d8cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00c1264bb45a1442a3a54caef0b1a380') in 0.070268 seconds
-  Import took 0.093171 seconds .
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a6e520b92ccfc61bcfa21a7bcab8468') in 0.012993 seconds
+  Import took 0.014631 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000309 seconds.
-  path: Packages/com.unity.test-framework/package.json
-  artifactKey: Guid(d6a2e6e4803de7b43baacdc355fc144d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.test-framework/package.json using Guid(d6a2e6e4803de7b43baacdc355fc144d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b0594b5f553d7626713f297b104582d') in 0.034978 seconds
-  Import took 0.055248 seconds .
+  Time since last request: 13.231818 seconds.
+  path: Assets/GDC work
+  artifactKey: Guid(fcb39dc4dc44c8c40be70bf2f8a2b1f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GDC work using Guid(fcb39dc4dc44c8c40be70bf2f8a2b1f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '946c346ef064a4f30060899f46b2ced1') in 0.011508 seconds
+  Import took 0.013409 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000302 seconds.
-  path: Packages/com.unity.textmeshpro/package.json
-  artifactKey: Guid(220e9325710f4235a43492dd1ee4980d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.textmeshpro/package.json using Guid(220e9325710f4235a43492dd1ee4980d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f2110a814479dc2ce7a862ddca5fc19') in 0.030304 seconds
-  Import took 0.032780 seconds .
+  Time since last request: 1.558516 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(1376be7c7d6c97040bd2eb626bfe70e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(1376be7c7d6c97040bd2eb626bfe70e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1296798daab0919fec931d5c5bd5128a') in 0.049192 seconds
+  Import took 0.050810 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000190 seconds.
-  path: Packages/com.unity.ide.vscode/package.json
-  artifactKey: Guid(ffc6271f08270b64ca0aae9c49235d81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.ide.vscode/package.json using Guid(ffc6271f08270b64ca0aae9c49235d81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c71ffd639b2cf2a5498daaf09783291') in 0.024908 seconds
-  Import took 0.027272 seconds .
+  Time since last request: 13.954686 seconds.
+  path: Assets/GDC work/generic assets
+  artifactKey: Guid(6c28685bc489f59499b7f508e54950b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GDC work/generic assets using Guid(6c28685bc489f59499b7f508e54950b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e12e0183f1ef8c17da3c4ea5849acffa') in 0.012515 seconds
+  Import took 0.014164 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000254 seconds.
-  path: Packages/com.unity.ext.nunit/package.json
-  artifactKey: Guid(8143d3a8390f2c64685e3bc272bd9e90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.ext.nunit/package.json using Guid(8143d3a8390f2c64685e3bc272bd9e90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a01048ffe93b3c22a4a91bbd8dd61637') in 0.021315 seconds
-  Import took 0.045226 seconds .
+  Time since last request: 16.200657 seconds.
+  path: Assets/GDC work/Personel folders
+  artifactKey: Guid(9bf858052743a9b46a2367b554910a49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GDC work/Personel folders using Guid(9bf858052743a9b46a2367b554910a49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90c574a679433fa8070c231b9f325c7c') in 0.011625 seconds
+  Import took 0.013871 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000255 seconds.
-  path: Packages/com.unity.ugui/package.json
-  artifactKey: Guid(319b8889f363f5947acf209c17a94149) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.ugui/package.json using Guid(319b8889f363f5947acf209c17a94149) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fc64036ad5d57fb88727d9272b78daf') in 0.037478 seconds
-  Import took 0.063955 seconds .
+  Time since last request: 10.706966 seconds.
+  path: Assets/GDC work/Personel folders/Reagan Folder
+  artifactKey: Guid(13b3f952bf4305144b7acc1b4403fc5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GDC work/Personel folders/Reagan Folder using Guid(13b3f952bf4305144b7acc1b4403fc5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06c4b4e7eaee399105283999c99f3032') in 0.010812 seconds
+  Import took 0.012483 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000269 seconds.
-  path: Packages/com.unity.timeline/package.json
-  artifactKey: Guid(13a9c1b4df2e489e8eb9cacca7429596) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.timeline/package.json using Guid(13a9c1b4df2e489e8eb9cacca7429596) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba39b86a3b0663a686472d15446053e6') in 0.032657 seconds
-  Import took 0.034531 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000250 seconds.
-  path: Packages/com.unity.ide.rider/package.json
-  artifactKey: Guid(66c95bb3c74257f41bae2622511dc02d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.ide.rider/package.json using Guid(66c95bb3c74257f41bae2622511dc02d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78ca40f4615ab8d7a307f38dca958894') in 0.023388 seconds
-  Import took 0.025011 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.370009 seconds.
-  path: Packages/com.unity.collab-proxy/package.json
-  artifactKey: Guid(743fda8c4b219c8429fb5a77ede1c879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/package.json using Guid(743fda8c4b219c8429fb5a77ede1c879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b76225e1d05c6196c9b192dc59beccd3') in 0.023414 seconds
-  Import took 0.061061 seconds .
+  Time since last request: 13.210849 seconds.
+  path: Assets/GDC work/Personel folders/Reagan Folder/Reagans world.unity
+  artifactKey: Guid(c201a66e338c9e54ca2b96af49c16440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GDC work/Personel folders/Reagan Folder/Reagans world.unity using Guid(c201a66e338c9e54ca2b96af49c16440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41c3f4fb0aab1e5626ddc9b7f0891e7a') in 0.019492 seconds
+  Import took 0.021528 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
