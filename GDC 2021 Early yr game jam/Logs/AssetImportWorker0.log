@@ -1,0 +1,273 @@
+Using pre-set license
+Built from '2020.2/release' branch; Version is '2020.2.2f1 (068178b99f32) revision 426360'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Enterprise; OS build 18363.1316; Version 1909; 64bit' Language: 'en' Physical Memory: 16229 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+F:/My stuff/Work/GDC stuff/gdc 2021 early yr game jam/GDCGameJam2021/GDC 2021 Early yr game jam
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+51861
+Successfully changed project path to: F:/My stuff/Work/GDC stuff/gdc 2021 early yr game jam/GDCGameJam2021/GDC 2021 Early yr game jam
+F:/My stuff/Work/GDC stuff/gdc 2021 early yr game jam/GDCGameJam2021/GDC 2021 Early yr game jam
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 23.39 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.2.2f1 (068178b99f32)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path F:/My stuff/Work/GDC stuff/gdc 2021 early yr game jam/GDCGameJam2021/GDC 2021 Early yr game jam/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1060 3GB (ID=0x1c02)
+    Vendor:   
+    VRAM:     2988 MB
+    Driver:   27.21.14.5671
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56528
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001850 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 23.51 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.914 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.000740 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.812 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1100 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 57.0 MB.
+System memory in use after: 57.1 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1541.
+Total: 1.998100 ms (FindLiveObjects: 0.204400 ms CreateObjectMapping: 0.368000 ms MarkObjects: 1.340800 ms  DeleteObjects: 0.083700 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/GDC work/Personel folders/Reagan Folder/healthy.mat
+  artifactKey: Guid(c970c921fa1a1ad4d8c2dfb547deb465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GDC work/Personel folders/Reagan Folder/healthy.mat using Guid(c970c921fa1a1ad4d8c2dfb547deb465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1c82ec523ac938384ef4a267d87db14') in 0.208321 seconds
+  Import took 0.210135 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/GDC work/Personel folders/Reagan Folder/Infected.mat
+  artifactKey: Guid(7b3a29f675c80c344bda7002798c1379) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GDC work/Personel folders/Reagan Folder/Infected.mat using Guid(7b3a29f675c80c344bda7002798c1379) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3696c7eaac83f5a0801386418614830') in 0.027460 seconds
+  Import took 0.029221 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.335644 seconds.
+  path: Assets/GDC work/Personel folders/Shane Folder
+  artifactKey: Guid(a3be63a5b064bfd4e908e86f789ce0e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GDC work/Personel folders/Shane Folder using Guid(a3be63a5b064bfd4e908e86f789ce0e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25c7e84b1c41cffeb7bcdf1359149ff3') in 0.011562 seconds
+  Import took 0.013307 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.872104 seconds.
+  path: Assets/GDC work/Personel folders/Shane Folder/Shane's Ui Testing.unity
+  artifactKey: Guid(d0c5088c73e3d0246ba2207f77c2d4cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GDC work/Personel folders/Shane Folder/Shane's Ui Testing.unity using Guid(d0c5088c73e3d0246ba2207f77c2d4cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a9df39e1130c6318e479d21a0ef4580') in 0.012651 seconds
+  Import took 0.014413 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 617.930214 seconds.
+  path: Assets/GDC work/Personel folders/Reagan Folder/scripts/npctest.cs
+  artifactKey: Guid(f521f82528e130846835c0193e55f55d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GDC work/Personel folders/Reagan Folder/scripts/npctest.cs using Guid(f521f82528e130846835c0193e55f55d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a2a8c972e933f3d645ee4d261000083') in 0.043869 seconds
+  Import took 0.046170 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 38.474455 seconds.
+  path: Assets/GDC work/Personel folders/Reagan Folder/Reagans world.unity
+  artifactKey: Guid(c201a66e338c9e54ca2b96af49c16440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GDC work/Personel folders/Reagan Folder/Reagans world.unity using Guid(c201a66e338c9e54ca2b96af49c16440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46f5932ebdf4be7c2a419ea88a509e76') in 0.013451 seconds
+  Import took 0.015143 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.856233 seconds.
+  path: Assets/GDC work/Personel folders/Reagan Folder/scripts/GameManager.cs
+  artifactKey: Guid(a2ab7f309a79b284c9580ee34466bf00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GDC work/Personel folders/Reagan Folder/scripts/GameManager.cs using Guid(a2ab7f309a79b284c9580ee34466bf00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5a5fcdef1d5c47a2551c3c090006b7d') in 0.011922 seconds
+  Import took 0.013991 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000461 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.723 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1096 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 60.5 MB.
+System memory in use after: 60.5 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1584.
+Total: 1.930200 ms (FindLiveObjects: 0.126900 ms CreateObjectMapping: 0.038400 ms MarkObjects: 1.711700 ms  DeleteObjects: 0.052300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 94.793474 seconds.
+  path: Assets/GDC work/Personel folders/Reagan Folder/scripts/GameManager.cs
+  artifactKey: Guid(a2ab7f309a79b284c9580ee34466bf00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GDC work/Personel folders/Reagan Folder/scripts/GameManager.cs using Guid(a2ab7f309a79b284c9580ee34466bf00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31c80ac69bdef80476ff19211ca5211e') in 0.017464 seconds
+  Import took 0.019918 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 58.886444 seconds.
+  path: Assets/GDC work/Personel folders/Reagan Folder/scripts/GameManager.cs
+  artifactKey: Guid(a2ab7f309a79b284c9580ee34466bf00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GDC work/Personel folders/Reagan Folder/scripts/GameManager.cs using Guid(a2ab7f309a79b284c9580ee34466bf00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb9a4f62c190fab42333c802e92c300e') in 0.017845 seconds
+  Import took 0.020071 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 41.898875 seconds.
+  path: Assets/GDC work/Personel folders/Reagan Folder/scripts/GameManager.cs
+  artifactKey: Guid(a2ab7f309a79b284c9580ee34466bf00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GDC work/Personel folders/Reagan Folder/scripts/GameManager.cs using Guid(a2ab7f309a79b284c9580ee34466bf00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47c4499a25ae055e0d2bb18822acee62') in 0.020810 seconds
+  Import took 0.024305 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.117016 seconds.
+  path: Assets/GDC work/Personel folders/Reagan Folder/scripts/GameManager.cs
+  artifactKey: Guid(a2ab7f309a79b284c9580ee34466bf00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GDC work/Personel folders/Reagan Folder/scripts/GameManager.cs using Guid(a2ab7f309a79b284c9580ee34466bf00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1961560dff7ea8bce054b9afdfce03dc') in 0.018328 seconds
+  Import took 0.020667 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.659356 seconds.
+  path: Assets/GDC work/Personel folders/Reagan Folder/scripts/GameManager.cs
+  artifactKey: Guid(a2ab7f309a79b284c9580ee34466bf00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GDC work/Personel folders/Reagan Folder/scripts/GameManager.cs using Guid(a2ab7f309a79b284c9580ee34466bf00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b3c00325d9b68fce0b7d04df9cd362a') in 0.016454 seconds
+  Import took 0.018763 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.366042 seconds.
+  path: Assets/GDC work/Personel folders/Reagan Folder/scripts/GameManager.cs
+  artifactKey: Guid(a2ab7f309a79b284c9580ee34466bf00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GDC work/Personel folders/Reagan Folder/scripts/GameManager.cs using Guid(a2ab7f309a79b284c9580ee34466bf00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02599bd238195eb00240264a035a2cc8') in 0.017545 seconds
+  Import took 0.019572 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 72.618219 seconds.
+  path: Assets/GDC work/Personel folders/Reagan Folder/scripts/GameManager.cs
+  artifactKey: Guid(a2ab7f309a79b284c9580ee34466bf00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GDC work/Personel folders/Reagan Folder/scripts/GameManager.cs using Guid(a2ab7f309a79b284c9580ee34466bf00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55c9c100f066480342d1218fc04d27bf') in 0.020109 seconds
+  Import took 0.022274 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 138.067577 seconds.
+  path: Assets/GDC work/Personel folders/Reagan Folder/scripts/GameManager.cs
+  artifactKey: Guid(a2ab7f309a79b284c9580ee34466bf00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GDC work/Personel folders/Reagan Folder/scripts/GameManager.cs using Guid(a2ab7f309a79b284c9580ee34466bf00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '714c394085cc18bcb40613a7d687ba38') in 0.016849 seconds
+  Import took 0.019216 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.023500 seconds.
+  path: Assets/GDC work/Personel folders/Reagan Folder/scripts/GameManager.cs
+  artifactKey: Guid(a2ab7f309a79b284c9580ee34466bf00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GDC work/Personel folders/Reagan Folder/scripts/GameManager.cs using Guid(a2ab7f309a79b284c9580ee34466bf00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '714c394085cc18bcb40613a7d687ba38') in 0.012144 seconds
+  Import took 0.014014 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.015562 seconds.
+  path: Assets/GDC work/Personel folders/Reagan Folder/scripts/GameManager.cs
+  artifactKey: Guid(a2ab7f309a79b284c9580ee34466bf00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GDC work/Personel folders/Reagan Folder/scripts/GameManager.cs using Guid(a2ab7f309a79b284c9580ee34466bf00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '509365ef054b9c84a8b8b3fcc34656dc') in 0.019559 seconds
+  Import took 0.021820 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 42.544538 seconds.
+  path: Assets/GDC work/Personel folders/Reagan Folder/scripts/GameManager.cs
+  artifactKey: Guid(a2ab7f309a79b284c9580ee34466bf00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GDC work/Personel folders/Reagan Folder/scripts/GameManager.cs using Guid(a2ab7f309a79b284c9580ee34466bf00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '927b5bbc33b96188845f16ba4fffcde2') in 0.018110 seconds
+  Import took 0.021360 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.065645 seconds.
+  path: Assets/GDC work/Personel folders/Reagan Folder/scripts/GameManager.cs
+  artifactKey: Guid(a2ab7f309a79b284c9580ee34466bf00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GDC work/Personel folders/Reagan Folder/scripts/GameManager.cs using Guid(a2ab7f309a79b284c9580ee34466bf00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d9faf01562ca6735e5845b9f5d74ec9') in 0.016220 seconds
+  Import took 0.019165 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000535 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.700 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1096 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 60.6 MB.
+System memory in use after: 60.7 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1586.
+Total: 1.520700 ms (FindLiveObjects: 0.171900 ms CreateObjectMapping: 0.037400 ms MarkObjects: 1.267600 ms  DeleteObjects: 0.043000 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
