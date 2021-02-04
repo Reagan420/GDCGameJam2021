@@ -4,5 +4,14 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/0 -Main_menu.unity
+    guid: 496ad375de146bd4da45c8971f386b72
+  - enabled: 1
+    path: Assets/GDC work/Personel folders/Bradley/bradley Scene.unity
+    guid: 1b9ede91428458e4794a19385b0b34bb
+  - enabled: 1
+    path: Assets/Scenes/3 - Won_game.unity
+    guid: 3d3c230c69a64524a872100b5ae4fac5
   m_configObjects: {}
