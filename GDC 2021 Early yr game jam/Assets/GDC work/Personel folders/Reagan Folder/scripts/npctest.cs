@@ -36,6 +36,7 @@ public class npctest : MonoBehaviour
 
     void Update()
     {
+        this.transform.rotation = Quaternion.Euler(new Vector3(0, 0, 0));
         if (this.transform.childCount != 0)
         {
             setInfected();
@@ -118,7 +119,6 @@ public class npctest : MonoBehaviour
         pathing = true;
         //Wait for 4 seconds
         yield return new WaitForSeconds(1);
-        toggleInfection();
         agent.SetDestination(gamemanager.GetComponent<GameManager>().Navs[Random.Range(0, gamemanager.GetComponent<GameManager>().Navs.Length)].transform.position);
         waiting = false;
     }
@@ -130,6 +130,7 @@ public class npctest : MonoBehaviour
         isNPC = false;
         agent.speed = 1;
         this.gameObject.GetComponent<MeshRenderer>().material = textInfected;
+        
     }
 
     void setHealthy()
@@ -157,11 +158,15 @@ public class npctest : MonoBehaviour
     {
         if (collision.transform.tag == "Player")
         {
+            setInfected();
+            collision.gameObject.transform.parent = this.transform;
             collision.gameObject.GetComponent<Collider>().isTrigger = true;
-            collision.gameObject.GetComponent<Rigidbody>().useGravity = true;
-            collision.gameObject.transform.position = new Vector3(0,0,0);
-
-            collision.gameObject.transform.parent = this.transform;//make this a host for the player
+            StopAllCoroutines();
+            collision.gameObject.GetComponent<Rigidbody>().angularVelocity = Vector3.zero;
+            collision.gameObject.GetComponent<Rigidbody>().velocity = Vector3.zero;
+            collision.gameObject.GetComponent<Rigidbody>().useGravity = false;
+            collision.gameObject.transform.rotation = Quaternion.Euler(new Vector3(0, 0, 0));
+            collision.gameObject.gameObject.transform.localPosition = new Vector3(0, 0, 0);
             isNPC = false;
         }
     }

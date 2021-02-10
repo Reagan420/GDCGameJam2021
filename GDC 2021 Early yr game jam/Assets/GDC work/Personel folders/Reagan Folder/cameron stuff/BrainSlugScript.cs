@@ -17,11 +17,15 @@ public class BrainSlugScript : MonoBehaviour
     public Vector3 mousepos;
     public GameObject host;
     public GameObject previousHost;
+    public GameObject gm;
+
+
     // Start is called before the first frame update
     void Start()
     {
         floor = GameObject.FindGameObjectWithTag("Floor");
-
+        gm = GameObject.FindGameObjectWithTag("GameManager");
+        FindNewHost();
         xMax = floor.GetComponent<Renderer>().bounds.extents.x;
         xMin = -floor.GetComponent<Renderer>().bounds.extents.x;
 
@@ -35,12 +39,38 @@ public class BrainSlugScript : MonoBehaviour
     void Update()
     {
 
-        Fling();
 
-        //checkBounds();
+        fixBugs();
 
+
+        if (this.transform.parent != null)
+        {
+            Fling();
+        }
+        
+
+        
 
     }
+
+    private void fixBugs()
+    {
+        if (this.gameObject.GetComponent<Collider>().isTrigger == false && this.gameObject.GetComponent<Rigidbody>().velocity.magnitude < 0.1)
+        {
+            makeOldHostMParent();
+
+            this.GetComponent<Collider>().isTrigger = true;
+            this.GetComponent<Rigidbody>().useGravity = false;
+            this.transform.position = previousHost.transform.position;
+            previousHost.GetComponent<npctest>().StopAllCoroutines();
+            this.GetComponent<Rigidbody>().angularVelocity = Vector3.zero;
+            this.GetComponent<Rigidbody>().velocity = Vector3.zero;
+            this.gameObject.transform.localPosition = new Vector3(0, 0, 0);
+            this.GetComponent<Rigidbody>().angularVelocity = Vector3.zero;
+        }
+    }
+
+
 
     private void checkBounds()
     {
@@ -119,17 +149,7 @@ public class BrainSlugScript : MonoBehaviour
             Debug.Log(hit.rigidbody);
         }
 
-        if(this.gameObject.GetComponent<Collider>().isTrigger == false && this.gameObject.GetComponent<Rigidbody>().velocity.magnitude < 0.1)
-        {
-            makeOldHostMParent();
-            
-            this.GetComponent<Collider>().isTrigger = true;
-            this.GetComponent<Rigidbody>().useGravity = false;
-            this.transform.position = previousHost.transform.position;
-            previousHost.GetComponent<npctest>().StopAllCoroutines();
-            previousHost.GetComponent<Rigidbody>().angularVelocity = Vector3.zero;
-            previousHost.GetComponent<Rigidbody>().velocity = Vector3.zero;
-        }
+        
     }
 
     public void makemeparent(GameObject parent)
@@ -141,6 +161,13 @@ public class BrainSlugScript : MonoBehaviour
     {
         this.transform.parent = previousHost.transform;
         host = previousHost;
+    }
+
+    void FindNewHost()
+    {
+        var rand = Random.RandomRange(0, gm.GetComponent<GameManager>().NPCs.Length-1);
+        this.transform.parent = gm.GetComponent<GameManager>().NPCs[rand].gameObject.transform;
+        this.transform.localPosition = new Vector3(0, 0, 0);
     }
 
     

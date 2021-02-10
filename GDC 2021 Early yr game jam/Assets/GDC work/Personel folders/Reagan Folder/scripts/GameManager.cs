@@ -13,6 +13,7 @@ public class GameManager : MonoBehaviour
     public bool playerisdead = false;
 
     public GameObject[] Navs;
+    public GameObject[] NPCs;
     // 
     private GameObject walkpos;
 
@@ -29,6 +30,7 @@ public class GameManager : MonoBehaviour
         //spawnNPCWalkLocations();
 
         Navs = GameObject.FindGameObjectsWithTag("walkPos");
+        NPCs = GameObject.FindGameObjectsWithTag("NPC");
 
         if (Instance == null) 
         { 
